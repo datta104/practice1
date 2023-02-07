@@ -54,7 +54,7 @@ tools {
 stages{
     stage('CheckOutCode'){
         steps{
-            git 'https://github.com/Chintzxd/ganesh.git'
+            git 'https://github.com/datta104/practice1.git'
 	}
   }
     stage('version') {
@@ -64,7 +64,7 @@ stages{
     }
     stage('hello.py') {
       steps {
-	git 'https://github.com/Chintzxd/ganesh.git'
+	git 'https://github.com/datta104/practice1.git'
         sh 'python hello.py'
       }
     }
