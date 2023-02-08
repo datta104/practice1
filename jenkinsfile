@@ -65,7 +65,7 @@ stages{
     stage('hello.py') {
       steps {
 	git 'https://github.com/datta104/practice1.git'
-        sh 'python hello.py'
+        sh 'python3 hello.py'
       }
     }
    stage('shell') {
